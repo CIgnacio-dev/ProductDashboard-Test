@@ -2,13 +2,13 @@
   "name": "product-dashboard",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:product-dashboard": "node dist/product-dashboard/server/server.mjs"
-  },
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "server": "npx json-server --watch db.json --port 3000"
+},
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",
@@ -20,6 +20,8 @@
     "@angular/platform-server": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.15",
+    "@ng-bootstrap/ng-bootstrap": "^18.0.0",
+    "bootstrap": "^5.3.7",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
