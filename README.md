@@ -32,7 +32,7 @@ Prueba técnica **FrontEnd Developer** — Aplicación Angular para la gestión 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU-USUARIO/ProductDashboard-Test.git
+git clone https://github.com/CIgnacio-dev/ProductDashboard-Test.git
 cd ProductDashboard-Test
 
 2. Instalar dependencias
@@ -72,7 +72,7 @@ src/
  Estilos Bootstrap aplicados
 
 
- 
+
 
  👨‍💻 Autor
 
